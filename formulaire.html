@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style2.css">
+  <title>Formulaire</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Le Formulaire</h1>
+    <a href="index.html">Accueil</a>
+  </header>
+
+  <p id="bonjour_pseudo"></p>
+
+  <form id="formulaire">
+    <label for="pseudo">Avant de commencer, veuillez utiliser un pseudonyme.<br>Ceci est pour des raisons de confidentialités</label>
+    <input type="text" placeholder="Insérer votre pseudo ici" name="pseudo" id="pseudo" required>
+    <button type="button" id="envoyer_pseudo">Envoyer</button>
+
+
+  </form>
+
+  <section id="section_hidden">
+
+    <div id="questions1" class="div_questions">
+      <h2 class="titre">Adaptablité</h2>
+
+      <table class="hidden_table">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="First">Vous</th>
+            <th class="Autrui">Autrui</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+
+            <td>Je n'admets le changement que très rarement</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix13"></td>
+          </tr>
+          <tr>
+            <td>J'ai des difficultés à m'adapter au changement</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix13"></td>
+          </tr>
+          <tr>
+            <td>J'admets les nouvelles situations après les avoir bien étudiées</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix13"></td>
+          </tr>
+          <tr>
+            <td>J'ai une bonne capacité d'adaptation</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix13"></td>
+          </tr>
+          <tr>
+            <td>Je suis toujours bien où je suis</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix13"></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+    <div id="questions2" class="div_questions">
+      <h2 class="titre">Affirmation</h2>
+
+      <table class="hidden_table">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="First">Vous</th>
+            <th class="Autrui">Autrui</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Je suis discret et réservé</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix1"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix14"></td>
+          </tr>
+          <tr>
+            <td>Je n'ose pas souvent exprimer mon avis</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix1"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix14"></td>
+          </tr>
+          <tr>
+            <td>J'émets mon opinion si on me le demande</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix1"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix14"></td>
+          </tr>
+          <tr>
+            <td>Je n'hésite pas a emmètre mon opinion</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix1"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix14"></td>
+          </tr>
+          <tr>
+            <td>Mon point de vue passe bien</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix1"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix14"></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+
+    <div id="questions3" class="div_questions">
+      <h2 class="titre">Ambition</h2>
+      <table class="hidden_table">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="First">Vous</th>
+            <th class="Autrui">Autrui</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Je suis très passif</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix2"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix15"></td>
+          </tr>
+          <tr>
+            <td>Je cherche peu à me réaliser</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix2"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix15"></td>
+          </tr>
+          <tr>
+            <td>Je suis ambitieux à la mesure de moi-même</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix2"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix15"></td>
+          </tr>
+          <tr>
+            <td>Je désire fortement progresser</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix2"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix15"></td>
+          </tr>
+          <tr>
+            <td>Je suis prêt à tout pour réussir</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix2"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix15"></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+    <div id="questions4" class="div_questions">
+      <h2 class="titre">Anxiété</h2>
+      <table class="hidden_table">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="First">Vous</th>
+            <th class="Autrui">Autrui</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Je suis toujours anxieux</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix3"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix16"></td>
+          </tr>
+          <tr>
+            <td>Je me fais souvent du souci</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix3"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix16"></td>
+          </tr>
+          <tr>
+            <td>Je sais dominer mon anxiété mais ce n'est pas facile</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix3"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix16"></td>
+          </tr>
+          <tr>
+            <td>je me fais rarement du souci</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix3"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix16"></td>
+          </tr>
+          <tr>
+            <td>Je suis parfaitement calme et serein</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix3"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix16"></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+
+    <div id="questions5" class="div_questions">
+      <h2 class="titre">Bon sens</h2>
+      <table class="hidden_table">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="First">Vous</th>
+            <th class="Autrui">Autrui</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Je fais souvent des erreurs d'appréciation</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix4"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix17"></td>
+          </tr>
+          <tr>
+            <td>Je ne vois pas toujours tous les aspects d'une situation</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix4"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix17"></td>
+          </tr>
+          <tr>
+            <td>Généralement je décide selon le sens commun</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix4"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix17"></td>
+          </tr>
+          <tr>
+            <td>Je pèse le pour et le contre d'une situation</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix4"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix17"></td>
+          </tr>
+          <tr>
+            <td>Réaliste, j'ai toujours les pieds sur terre</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix4"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix17"></td>
+          </tr>
+
+        </tbody>
+      </table>
+
+    </div>
+
+    <div id="questions6" class="div_questions">
+      <h2 class="titre">Capacité d'initiative</h2>
+      <table class="hidden_table">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="First">Vous</th>
+            <th class="Autrui">Autrui</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Je réalise mon travail selon les instructions que l'on me donne</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix5"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix18"></td>
+          </tr>
+          <tr>
+            <td>J'évite de prendre des initiatives</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix5"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix18"></td>
+          </tr>
+          <tr>
+            <td>Lorsque c'est nécessaire, il m'arrive de proposer des idées</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix5"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix18"></td>
+          </tr>
+          <tr>
+            <td>Je fais preuve d'initiative</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix5"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix18"></td>
+          </tr>
+          <tr>
+            <td>Je prends toujours des initiatives et je les mets en oeuvre</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix5"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix18"></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+    <div id="questions7" class="div_questions">
+      <h2 class="titre">Commandement</h2>
+      <table class="hidden_table">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="First">Vous</th>
+            <th class="Autrui">Autrui</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Je ne peux pas me faire obéir</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix6"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix19"></td>
+          </tr>
+          <tr>
+            <td>Je commande difficilement</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix6"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix19"></td>
+          </tr>
+          <tr>
+            <td>Je sais assez bien commander quand il le faut</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix6"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix19"></td>
+          </tr>
+          <tr>
+            <td>Je suis apte à diriger</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix6"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix19"></td>
+          </tr>
+          <tr>
+            <td>J'ai une autorité naturelle et beaucoup d'influence</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix6"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix19"></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+    <div id="questions8" class="div_questions">
+      <h2 class="titre">Communication</h2>
+      <table class="hidden_table">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="First">Vous</th>
+            <th class="Autrui">Autrui</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Je suis trés peu communicatif et très isolé</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix7"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix20"></td>
+          </tr>
+          <tr>
+            <td>J'ai du mal à communiquer</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix7"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix20"></td>
+          </tr>
+          <tr>
+            <td>Je m'exprime si on me demande mon avis</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix7"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix20"></td>
+          </tr>
+          <tr>
+            <td>Je m'exprime facilement et clairement</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix7"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix20"></td>
+          </tr>
+          <tr>
+            <td>Je suis à l'aise dans tout type de communication</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix7"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix20"></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+    <div id="questions9" class="div_questions">
+      <h2 class="titre">Confiance en soi</h2>
+      <table class="hidden_table">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="First">Vous</th>
+            <th class="Autrui">Autrui</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Je suis très timide</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix8"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix21"></td>
+          </tr>
+          <tr>
+            <td>Je manque de confiance en moi</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix8"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix21"></td>
+          </tr>
+          <tr>
+            <td>Je me domine bien</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix8"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix21"></td>
+          </tr>
+          <tr>
+            <td>Je suis à l'aise dans les situations</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix8"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix21"></td>
+          </tr>
+          <tr>
+            <td>Je suis toujours plein d'entrain</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix8"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix21"></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+    <div id="questions10" class="div_questions">
+      <h2 class="titre">Conviction</h2>
+      <table class="hidden_table">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="First">Vous</th>
+            <th class="Autrui">Autrui</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Je me laisse souvent convaincre par les autres</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix9"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix22"></td>
+          </tr>
+          <tr>
+            <td>Je n'éprouve pas le besoin de convaincre</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix9"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix22"></td>
+          </tr>
+          <tr>
+            <td>Je ne cherche à convaincre que si c'est nécessaire</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix9"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix22"></td>
+          </tr>
+          <tr>
+            <td>J'aime convaincre</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix9"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix22"></td>
+          </tr>
+          <tr>
+            <td>J'essaie toujours de convaincre mon interlocuteur</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix9"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix22"></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+    <div id="questions11" class="div_questions">
+      <h2 class="titre">Decision</h2>
+      <table class="hidden_table">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="First">Vous</th>
+            <th class="Autrui">Autrui</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Je suis anxieux lorsque j'ai une décision à prendre</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix10"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix23"></td>
+          </tr>
+          <tr>
+            <td>Je suis hésitant et je vais chercher l'avis des autres</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix10"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix23"></td>
+          </tr>
+          <tr>
+            <td>Je fais des choix lorsque c'est nécessaire</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix10"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix23"></td>
+          </tr>
+          <tr>
+            <td>Je ne crains pas de m'engager dans une direction</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix10"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix23"></td>
+          </tr>
+          <tr>
+            <td>Je prend mes décisions en toute autonomie</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix10"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix23"></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+
+    <div id="questions12" class="div_questions">
+      <h2 class="titre">Economie</h2>
+      <table class="hidden_table">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="First">Vous</th>
+            <th class="Autrui">Autrui</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Je suis un « panier percé »</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix11"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix24"></td>
+          </tr>
+          <tr>
+            <td>Je suis assez depensier</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix11"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix24"></td>
+          </tr>
+          <tr>
+            <td>Je ne suis pas regardant mais quand même raisonnable</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix11"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix24"></td>
+          </tr>
+          <tr>
+            <td>Je surveille les frais et tiens les comptes</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix11"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix24"></td>
+          </tr>
+          <tr>
+            <td>Je gère bien mes finances</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix11"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix24"></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+    <div id="questions13" class="div_questions">
+      <h2 class="titre">Ecoute</h2>
+      <table class="hidden_table">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="First">Vous</th>
+            <th class="Autrui">Autrui</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Je parle plus que je n'écoute</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix12"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix25"></td>
+          </tr>
+          <tr>
+            <td>Je prête peu d'attention à ce que les autres disent</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix12"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix25"></td>
+          </tr>
+          <tr>
+            <td>Je suis généralement attentif à mes interlocuteurs</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix12"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix25"></td>
+          </tr>
+          <tr>
+            <td>J'echange facilement avec les autres</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix12"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix25"></td>
+          </tr>
+          <tr>
+            <td>Je suis réceptif aux autres et j'adapte mon comportement</td>
+            <td class="First"><input type="radio" class="checkbox1" name="choix12"></td>
+            <td class="Autrui"><input type="radio" class="checkbox2" name="choix25"></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+    <button id="validation_form" type="button">Valider</button>
+
+  </section>
+
+
+
+  <footer id="footer">
+
+    <p>2021 All right reserved</p>
+    <img src="images/logo_Stephane.png" alt="logo SB Project">
+
+  </footer>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #E6E6E6;
+    margin: 0;
+}
+
+
+/********** header ***********/
+
+header {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+header h1 {
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+
+header img {
+    width: 300px;
+    height: auto;
+}
+
+header h2 {
+    margin-top: 0;
+}
+
+
+/*********** main ************/
+
+main {
+    text-align: justify;
+    margin: 10px;
+}
+
+main p {
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    text-align: justify;
+}
+
+main a {
+    color: white;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 5px 20px;
+    border: 1px solid black;
+    display: block;
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    font-weight: bold;
+}
+
+main img {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+
+/**************footer *************/
+
+footer {
+    background-color: rgb(246, 129, 13, 0.94);
+    margin-top: 10px;
+    padding: 10px;
+    position: relative;
+    width: auto;
+    height: 100px;
+    text-align: center;
+}
+
+footer img {
+    width: 50px;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+/*********** responsive *************/
+
+@media all and (min-width:425px) {
+    main img {
+        width: 400px;
+    }
+}
+
+@media all and (min-width:600px) {
+    main img {
+        width: 500px;
+    }
+}
+
+@media all and (min-width:768px) {
+    main p {
+        margin: 10px auto;
+        width: 550px;
+    }
+}

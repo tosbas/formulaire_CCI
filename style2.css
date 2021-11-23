@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #e9e9e9;
+    margin: 0;
+    user-select: none;
+}
+
+
+/*********** header ***************/
+
+header {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    color: black;
+}
+
+a {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+/********** page Formulaire ********/
+
+
+/* form */
+
+form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    padding: 20px;
+    max-width: 300px;
+    margin: auto;
+    border-radius: 10px;
+    color: black;
+}
+
+input[type="text"],
+button {
+    max-width: 200px;
+    margin: auto;
+    padding: 10px;
+}
+
+form button {
+    border-radius: 20px;
+    width: 200px;
+    margin-top: 10px;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+
+/* section */
+
+section h2 {
+    text-align: center;
+    background-color: red;
+    cursor: pointer;
+    padding: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+thead {
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+}
+
+table {
+    display: block;
+    width: auto;
+    color: black;
+}
+
+.hidden_table {
+    display: none;
+}
+
+.th {
+    padding-left: 15px;
+}
+
+.padding {
+    padding-right: 15px;
+}
+
+.section_hidden {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.div_questions {
+    max-width: 300px;
+    margin: auto;
+}
+
+input[type="radio"] {
+    width: 50px;
+}
+
+.Autrui {
+    display: none;
+}
+
+section button {
+    margin: auto;
+    display: block;
+    width: 200px;
+    cursor: pointer;
+}
+
+#validation_form {
+    border-radius: 20px;
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+}
+
+
+/**************footer *************/
+
+footer {
+    background-color: rgb(246, 129, 13, 0.94);
+    margin-top: 10px;
+    padding: 10px;
+    position: relative;
+    width: auto;
+    height: 100px;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+footer img {
+    width: 50px;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+/*********** responsive *************/
+
+@media all and (min-width:425px) {
+    main img {
+        width: 400px;
+    }
+}
+
+@media all and (min-width:600px) {
+    main img {
+        width: 500px;
+    }
+}
+
+@media all and (min-width:768px) {
+    main p {
+        margin: 10px auto;
+        width: 550px;
+    }
+}
